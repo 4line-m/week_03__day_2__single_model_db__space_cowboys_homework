@@ -72,4 +72,17 @@ class Bounty
       db.close()
     end
 
+    ###############
+    # def find()
+    #   db = PG.connect( {
+    #      dbname: 'space_cowboys',
+    #      host: 'localhost' } )
+    #   sql =
+    #   "SELECT FROM bounties WHERE id = $1"
+    #   values = [@id]
+    #   db.prepare("find", sql)
+    #   db.exec_prepared("find",values)
+    #   db.close()
+    # end
+
 end
