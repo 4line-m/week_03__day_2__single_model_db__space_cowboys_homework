@@ -6,7 +6,7 @@ bounty_1 = Bounty.new(
     'name' => 'Alizor',
     'species' => 'Amazonik',
     'favourite_weapon' => 'Photon Stunner',
-    'bounty_value' => ''
+    'bounty_value' => '0'
 
   }
 )
